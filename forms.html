@@ -1,80 +1,77 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
- </head>
- <body>
-
+</head>
+<body>
+    <h2>Event Registration</h1>
     <form>
-   
-        <label for="Password">Enter Password</label>
-        <input type="text" name="Password" id="Password">
+      
+        <label for="Name">Name:</label>
+        <br>
+        <input type="text" name="Name" id="Name">
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input type="text" name="email" id="email">
+        <br>
+        <br>
+        <label for="Phone">Phone:</label>
+        <br>
+        <input type="text" name="Phone" id="Phone">
+        <br>
+        <br>
+
+        <label for="occupation">Occupation:</label>
+        <br>
+        <select name="occupation" id="occupation">
+            <option value="Engineer">Engineer</option>
+            <option value="Doctor">Doctor</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Bussiness">Bussiness</option>
+            <option value="Lawyer">Lawyer</option>
+            <option value="Other">Other</option>
+        </select>
 
         <br>
         <br>
 
-    
-        <input type="subbmit" name="Subscribe" value="Subscribe">
+        <label>Topic of Interest:</label>
+        <br>
+        <br>
 
+        <input type="radio" name="interests" id="interest1">
         <br>
-        <br>
-        <div>
-        <label for="radio1">Radio button1:</label>
-        <input type="radio" name="radio1" id="radio1">
+        <label for="interest1">HTML</label>
         
+    
+        <br>
+        <br>
 
-        <label for="radio2">Radio button2:</label>
-        <input type="radio" name="radio2" id="radio2">
+        <input type="radio" name="interest" id="interest2">
+        <br>
+        <label for="interest2">CSS</label>
+    
+        <br>
+        <br>\
+        <input type="radio" name="interestss" id="interest3">
+        <br>
+        <label for="interest3">JavaScript</label>
         
-
-        <label for="radio3">Radio button3:</label>
-        <input type="radio" name="radio3" id="radio3">
-        </div>
-
-        <br>
-        <br>
-        <div>
-        <label for="checkbox1">checkbox1:</label>
-        <input type="checkbox" name="checkbox1" id="checkbox1">
-        
-        
-
-        <label for="checkbox2">checkbox2:</label>
-        <input type="checkbox" name="checkbox2" id="checkbox2">
-
-        <label for="checkbox3">checkbox3:</label>
-        <input type="checkbox" name="checkbox3" id="checkbox3">
-        </div>
-
-        <br>
-        <br>
-
-        <label for="fileselect1">Upload</label>
-        <input type="file" name="fileselct1" id="fileselect1">
-        <br>
-        <br>
-
-        <input type="image" name="images" id="images1" alt="Clickhere" src="images.png" width="20px" height="20px">
-
-        <br>
-        <br>
-
-        <label for="password1">Enter password:</label>
-        <input type="password" name="password1" id="password1">
     
         <br>
         <br>
-
-        <label for="datepicker1">choose date:</label>
-        <input type="date" name="datepicker1" id="datepicker1">
-    
-        <label for="check">Check</label>
-        <input type="text" name="check1" id="check">
-    
-    
+        <label>Comments:</label>
+        <br>
+        <textarea name="comment" id="comment" cols="40" rows="10"></textarea>
+ 
+        <input type="button" name="Register" id="Register" value="Register">
     </form>
 
+
 </body>
- </html>
+</html>
